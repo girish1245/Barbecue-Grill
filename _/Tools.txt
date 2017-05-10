@@ -1,0 +1,16 @@
+Wireframing: 
+Balsamiq
+
+
+Html
+Sass
+Css
+Javascript
+Jquery
+Jquery Mobile
+
+Task Runner:
+
+Grunt (For minification and ugilification of Css & JS,  compiling sass to css).
+Compass
+
