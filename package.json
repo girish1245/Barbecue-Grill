@@ -1,0 +1,28 @@
+{
+  "name": "barbecue-grill",
+  "version": "0.0.1",
+  "dependencies": {
+    "grunt": "~1.0.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-contrib-compass": "~1.1.1",
+    "grunt-contrib-uglify": "~2.3.0",
+    "matchdep": "~1.0.1",
+    "bootstrap": "3.3.7",
+    "jquery": "~3.2.1",
+    "jquery-ui": "~1.12.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:girish1245/Barbecue-Grill.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "grunt-babel": "^6.0.0"
+  }
+}

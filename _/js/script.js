@@ -1,0 +1,1 @@
+"use strict";var test1=function(){"hello"},y=322,z=54,k=function(a,b){return a*b};console.log(k),document.getElementsByName("h2").innerHTML="something";
