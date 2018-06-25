@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #container{
+            width:100%;
+        }
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width:75%;
+            margin:30px auto;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        .dropdown, .midsection, .comments, .footer {
+            width:75%;
+            margin:30px auto;
+        }
+        .textfields {
+            width:100%;
+            margin:30px auto;
+        }
+        .comments {
+            border-top:1px solid black;
+        }
+        .comments p{
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="dropdown">
+            <select>
+                <option value="volvo">QA Action</option>
+                <option value="saab">Incorrectly Priced</option>
+                <option value="mercedes">Correctly Priced</option>
+                <option value="audi">Escalation</option>
+            </select>
+        </div>
+        <div class="midsection">
+            <div class="textfields">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Date">
+                <input type="text" placeholder="Time">
+                <input type="text" placeholder="ID">
+            </div>
+            <div>
+                <p class="">1.</p>
+                <p class="">2.</p>
+                <p class="">3.</p>
+            </div>
+        </div>
+        <table class="tableone">
+                <tr>
+                    <th>Loan</th>
+                    <th>Act Val</th>
+                    <th>Expected</th>
+                    <th>Discrepancy</th>
+                </tr>
+                <tr>
+                    <td>Auto</td>
+                    <td>XXX</td>
+                    <td>XXX</td>
+                    <td>XXX</td>
+                </tr>
+        </table>
+        <div class="comments">
+            <p>Comments & Final Rate History</p>
+            <hr>
+            <p>Content</p>
+        </div>
+        <div class="footer">
+            <button>Add Comment</button>
+        </div>
+    </div>
+</body>
+</html>
